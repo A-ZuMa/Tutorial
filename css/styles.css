@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #212121;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text {
+    padding: 40px;
+    margin: 120px 50px;
+    background-color: #fff;
+    border: 5px dashed #212121;
+}
+
+.box-1 {
+    width: 140px;
+    height: 80px;
+    border-top-right-radius: 30px;
+    background-color: #f44336;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background-color: #2196f3;
+}
+
+.box-3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #4caf50;
+}
