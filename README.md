@@ -7,3 +7,7 @@ https://youtu.be/g6TVGxzC090
 # Модуль 1. Заняття 2. - Змінні та типи. Розгалуження. Цикли
 
 https://youtu.be/YjuyVyj7Jb8
+
+# Модуль 2. Заняття 3. Масиви. Функції - уже доступний
+
+https://youtu.be/aRJnwHeUST4

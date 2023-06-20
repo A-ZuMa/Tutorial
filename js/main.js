@@ -463,3 +463,242 @@
 // checkForSpam("Trust me, this is not a spam message");
 // checkForSpam("Get rid of sPaM emails. Our book in on sale!");
 // checkForSpam("[SPAM] How to earn fast money?");
+
+// **************************** Module 2 ***************************************
+// // ***** #2-1
+// function checkAge(age) {
+//   if (age>=18) { // Change this line
+//     return "You are an adult";
+//   }
+
+//   return "You are a minor";
+//   console.log(checkAge);
+// }
+// checkAge(20);
+// checkAge(8);
+// checkAge(14);
+// checkAge(38);
+
+// // ***** #2-2
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   // Change code below this line
+
+//   if (password === ADMIN_PASSWORD) {
+//     return "Welcome!";
+//   }
+//   // Change code above this line
+//   return "Access denied, wrong password!";
+
+//   // console.log(password === ADMIN_PASSWORD ? "Welcome!" : "Access denied, wrong password!");
+// }
+// checkPassword("mangohackzor");
+// checkPassword("polyhax");
+// checkPassword("jqueryismyjam");
+
+// // ***** #2-3
+// function checkStorage(available, ordered) {
+//   // Change code below this line
+
+//   if (ordered === 0) {
+//     return "Your order is empty!";
+//   } if (ordered > available) {
+//     return "Your order is too large, not enough goods in stock!";
+//   }
+//     return "The order is accepted, our manager will contact you";
+  
+
+//   return message;
+//   // Change code above this line
+// }
+// checkStorage(100, 50);
+// checkStorage(100, 130);
+// checkStorage(70, 0);
+// checkStorage(200, 20);
+// checkStorage(200, 250);
+// checkStorage(150, 0);
+
+// // ***** 2-9
+// function getExtremeElements(array) {
+//   // Change code below this line
+//   const lastElementElement = array.length - 1;
+//   const arrayNew = [array[0], array[lastElementElement]];
+
+//   // Change code above this line
+//   return arrayNew;
+// }
+// getExtremeElements([1, 2, 3, 4, 5]);
+// getExtremeElements(["Earth", "Mars", "Venus"]);
+// getExtremeElements(["apple", "peach", "pear", "banana"]);
+
+// // ***** 2-10
+// function splitMessage (message, delimiter) {
+//   let words;
+//   // Change code below this line
+//   words = (message.split(delimiter));
+//   // Change code above this line
+//   return words;
+// }
+// splitMessage("Mango hurries to the train", " ");
+// splitMessage("Mango", "");
+// splitMessage("best_for_week", "_");
+
+// // ***** 2-11
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+//   // let words;
+//   // let wordsCount;
+//   const words = (message.split(" "));
+//   const wordsCount = words.length;
+  
+  
+//   // Change code above this line
+//   // console.log(words, wordsCount);
+//   return wordsCount * pricePerWord;
+// }
+// calculateEngravingPrice("JavaScript is in my blood", 10);
+// calculateEngravingPrice("JavaScript is in my blood", 20);
+// calculateEngravingPrice("Web-development is creative work", 40);
+// calculateEngravingPrice("Web-development is creative work", 20);
+
+// // ***** 2-12
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   // Change code below this line
+// string = array.join(delimiter)
+// console.log(string);
+
+//   // Change code above this line
+//   return string;
+// }
+// makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " ");
+// makeStringFromArray(["M", "a", "n", "g", "o"], "");
+// makeStringFromArray(["top", "picks", "for", "you"], "_");
+
+// // ***** 2-13
+// function slugify(title) {
+//   // Change code below this line
+//   title = title.toLowerCase();
+//   title = title.replace(/\s+/g, '-');
+// // string = title.slug(title, {lower: true} + "-")
+//   return title;
+  
+//   // Change code above this line
+// }
+// slugify("Arrays for begginers");
+// slugify("English for developer");
+// slugify("Ten secrets of JavaScript");
+// slugify("How to become a JUNIOR developer in TWO WEEKS");
+
+// // ***** 2-14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(-3);
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+// // ***** 2-15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+// console.log(allClients);
+
+// ***** 2-16
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+//   // const string = firstArray.concat(secondArray);
+//   // const newArray = string.slice(0, maxLength)
+  
+//   const newArray = firstArray.concat(secondArray).length > maxLength ? firstArray.concat(secondArray).slice(0, maxLength) : firstArray.concat(secondArray);
+
+
+//     // Change code above this line
+//   return newArray;
+//   // console.log(newArray);
+// }
+// makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3);
+// makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4);
+// makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0);
+
+// // ***** 2-17
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+// // ***** 2-18
+
+// function calculateTotal(number) {
+//  // Change code below this line
+//   let result = 0;
+//   for (let i = 0; i < number; i += 1) {
+//     result = result + (i + 1);
+//     // console.log(i);
+//   }
+
+
+//   // Change code above this line
+//   console.log(result);
+//   return result;
+// }
+// calculateTotal(1);
+// calculateTotal(3);
+// calculateTotal(7);
+// calculateTotal(18);
+// calculateTotal(24);
+
+// // ***** 2-19
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// // ***** 2-20
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (let i = 0; i < order.length; i += 1) {
+//     total = total + order[i];
+//   }
+
+//   // Change code above this line
+//   console.log(total);
+//   return total;
+// }
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+
+// ***** 2-21
+function findLongestWord(string) {
+  // Change code below this line
+  console.log(string);
+  console.log(string.split.length);
+  let longestWord = 0;
+  for (let i = 0; i < string.length; i += 1) {
+    if (string[i].length > longestWord) {
+      console.log(string[i].length);
+      longestWord = string[i];
+    } 
+  }
+
+
+  // Change code above this line
+  console.log(longestWord);
+}
+findLongestWord("The quick brown fox jumped over the lazy dog");
+findLongestWord("Google do a roll");
+findLongestWord("May the force be with you");
