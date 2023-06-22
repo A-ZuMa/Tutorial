@@ -682,23 +682,116 @@
 // calculateTotalPrice([164, 48, 291]);
 // calculateTotalPrice([412, 371, 94, 63, 176]);
 
-// ***** 2-21
-function findLongestWord(string) {
+// // ***** 2-21
+// function findLongestWord(string) {
+//   // Change code below this line
+//   let longestWord = `a`;
+//   let longestWordIDX = 0;
+//   const array = (string.split(" "));
+//   // console.log(string);
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (longestWord.length < array[i].length) {
+//       longestWordIDX = i;
+//       longestWord = array[longestWordIDX];
+//     }
+//   }
+//   // Change code above this line
+//   return (longestWord);
+// }
+// findLongestWord("The quick brown fox jumped over the lazy dog");
+// findLongestWord("Google do a roll");
+// findLongestWord("May the force be with you");
+
+// // ***** 2-22
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   let count = 0;
+//   // Change code below this line
+//   for (let i = min - 1; i < max; i += 1) {
+//     numbers.push(min+count);
+//     count += 1;
+//   }
+
+//   // Change code above this line
+//   console.log(numbers);
+//   return numbers;
+// }
+// createArrayOfNumbers(1, 3);
+// createArrayOfNumbers(14, 17);
+// createArrayOfNumbers(29, 34);
+
+// // ***** 2-23
+// function filterArray(numbers, value) {
+//    // Change code below this line
+//   let result = [];
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     // if (numbers[i] > value || numbers[i] !== value) {
+//       // numbers.splice(i, 1);
+//       // i -= 1;
+//     if (numbers[i] > value) {
+//       result.push(numbers[i]);
+//     }
+//   }
+  
+//   // Change code above this line
+//   // console.log(numbers);
+//   // return numbers
+//   console.log(result);
+//   return result;
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+// filterArray([1, 2, 3, 4, 5], 4);
+// filterArray([1, 2, 3, 4, 5], 5);
+// filterArray([12, 24, 8, 41, 76], 38);
+// filterArray([12, 24, 8, 41, 76], 20);
+
+// // ***** 2-24
+
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//       console.log(fruits.includes(fruit));
+
+//   return (fruits.includes(fruit)); // Change this line
+// }
+// checkFruit("plum");
+// checkFruit("mandarin");
+// checkFruit("pear");
+// checkFruit("Pear");
+// checkFruit("apple");
+
+// // ***** 2-25
+
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   let result = [];
+//   for (let i = 0; i < array2.length; i += 1) {
+//     if (array2.includes(array1[i])) {
+//       result.push(array1[i]);
+//     }
+//   }
+//   // Change code above this line
+//   console.log(result);
+//   return result;
+// }
+// getCommonElements([1, 2, 3], [2, 4]);
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]);
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
+// getCommonElements([1, 2, 3], [10, 20, 30]);
+
+// ***** 26-32
+
+function calculateTotalPrice(order) {
+  let total = 0;
   // Change code below this line
-  console.log(string);
-  console.log(string.split.length);
-  let longestWord = 0;
-  for (let i = 0; i < string.length; i += 1) {
-    if (string[i].length > longestWord) {
-      console.log(string[i].length);
-      longestWord = string[i];
-    } 
+
+  for (let i = 0; i < order.length; i += 1) {
+    total += order[i];
   }
 
-
   // Change code above this line
-  console.log(longestWord);
+  return total;
 }
-findLongestWord("The quick brown fox jumped over the lazy dog");
-findLongestWord("Google do a roll");
-findLongestWord("May the force be with you");
