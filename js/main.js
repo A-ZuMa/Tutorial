@@ -782,16 +782,169 @@
 // getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
 // getCommonElements([1, 2, 3], [10, 20, 30]);
 
-// ***** 26-32
+// // ***** 26-32
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   let count = 0;
+//   // Change code below this line
 
-function calculateTotalPrice(order) {
-  let total = 0;
-  // Change code below this line
+//   // for (let i = 0; i < order.length; i += 1) {
+//   //   total += order[i];
+//   // }
+//   for (count of order) {
+//     total = total + count;
+//   }
+//   // Change code above this line
+//   console.log(total);
+// return total;
+// }
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+// calculateTotalPrice([]);
 
-  for (let i = 0; i < order.length; i += 1) {
-    total += order[i];
-  }
+// // ***** 2-27
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
 
-  // Change code above this line
-  return total;
-}
+//   // for (let i = 0; i < numbers.length; i += 1) {
+//   //   const number = numbers[i];
+
+//   //   if (number > value) {
+//   //     filteredNumbers.push(number);
+//   //   }
+//   // }
+
+//   for (number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   // Change code above this line
+//   console.log(filteredNumbers);
+//   return filteredNumbers;
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+// filterArray([1, 2, 3, 4, 5], 4);
+// filterArray([1, 2, 3, 4, 5], 5);
+// filterArray([12, 24, 8, 41, 76], 38);
+// filterArray([12, 24, 8, 41, 76], 20);
+
+// // ***** 2-28
+// // Change code below this line
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 3;
+// console.log(a ,b ,c, d, e);
+
+// // ***** 2-29
+// function getEvenNumbers(start, end) {
+//    // Change code below this line
+//   let pairNumbers = [];
+//   for (let i = 0; start <= end; i += 1){
+//     if (start % 2 === 0) {
+//       pairNumbers.push(start);
+//     }
+//     start += 1;
+//   }
+
+//     // Change code above this line
+//   console.log(pairNumbers);
+//   return pairNumbers;
+// }
+// getEvenNumbers(2, 5);
+// getEvenNumbers(3, 11);
+// getEvenNumbers(6, 12);
+// getEvenNumbers(8, 8);
+// getEvenNumbers(7, 7);
+
+// // ***** 2-30
+// const start = 6;
+// const end = 27;
+// let number;
+// let i = start;
+
+// for (; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+//   // start += 1;
+// }
+// console.log(number);
+
+// // ***** 2-31
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number = 0;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       // number = i;
+//       console.log(i);
+//       return i;
+//       // break;
+//     }
+//   }
+//   // Change code above this line
+// }
+// const pureNumber = findNumber()
+// findNumber(2, 6, 5);
+// findNumber(8, 17, 3);
+// findNumber(6, 9, 4);
+// findNumber(16, 35, 7);
+
+// // ***** 2-32
+// function includes(array, value) {
+//   // Change code below this line
+//   let check;
+//   for (let i = 0; i < array.length; i += 1) {
+//     // if (value % array[i] !== value) {
+//     //   return array[i]
+//     // }
+
+//     if (array[i].includes(value)) {
+//       console.log(array[i].includes(value));
+//       return true;
+//     }
+//   }
+//   // Change code above this line
+//   check = false;
+//   console.log(check);
+//   return false;
+// }
+// includes([1, 2, 3, 4, 5], 3);
+// includes([1, 2, 3, 4, 5], 17);
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter");
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus");
+// includes(["apple", "plum", "pear", "orange"], "plum");
+// includes(["apple", "plum", "pear", "orange"], "kiwi");
+//
+// ****************** VARIAN #2************************
+// 
+// function includes(array, value) {
+//   // Change code below this line
+//   let check;
+//   for (let number of array) {
+//     if (number === value) {
+//       // check = true;
+//       console.log(check);
+//       return true;
+//   }
+// }
+
+//   // Change code above this line
+//   // check = false;
+//   console.log(check);
+//   return false;
+// }
+// includes([1, 2, 3, 4, 5], 3);
+// includes([1, 2, 3, 4, 5], 17);
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter");
+// includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus");
+// includes(["apple", "plum", "pear", "orange"], "plum");
+// includes(["apple", "plum", "pear", "orange"], "kiwi");
