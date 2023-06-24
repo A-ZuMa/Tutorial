@@ -28,7 +28,7 @@
 // makeOrderMessage(4, 300, 100);
 // makeOrderMessage(10, 70, 200);
 
-// // ***** #13
+// // ***** 1-13
 // function isAdult(age) {
 //   // Change code below this line
 //   const passed = age >= 18;
@@ -42,7 +42,7 @@
 // isAdult(8);
 // isAdult(37);
 
-// // ***** #14
+// // ***** 1-14
 // function isValidPassword(password) {
 //   const SAVED_PASSWORD = 'jqueryismyjam';
 //   // Change code below this line
@@ -56,8 +56,7 @@
 // isValidPassword("kiwirul3z");
 // isValidPassword("jqueryismyjam");
 
-// // ***** #15
-
+// // ***** 1-15
 // function checkAge(age) {
 //   let message;
 
@@ -75,7 +74,7 @@
 // checkAge(38);
 
 
-// // ***** #16
+// // ***** 1-16
 // function checkStorage(available, ordered) {
 //   let message;
 //   // Change code below this line
@@ -95,7 +94,7 @@
 // checkStorage(200, 150);
 // checkStorage(150, 180);
 
-// // ***** #17
+// // ***** 1-17
 // let a = 5;
 // let b = 10;
 // let c = 15;
@@ -107,7 +106,7 @@
 // c *= 3;
 // d /= 10;
 
-// // ***** #18
+// // ***** 1-18
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   let message;
 //   // Change code below this line
@@ -128,7 +127,7 @@
 // makeTransaction(2000, 8, 10000);
 // makeTransaction(500, 10, 5000);
 
-// // ***** #19
+// // ***** 1-19
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = 'jqueryismyjam';
 //   let message;
@@ -148,7 +147,7 @@
 // checkPassword("polyhax");
 // checkPassword("jqueryismyjam");
 
-// // ***** #20
+// // ***** 1-20
 // function checkStorage(available, ordered) {
 //   let message;
 //   // Change code below this line
@@ -171,7 +170,7 @@
 // checkStorage(200, 250);
 // checkStorage(150, 0);
 
-// // ***** #21
+// // ***** 1-21
 // function isNumberInRange(start, end, number) {
 //   const isInRange = (number >= start && number <= end); // Change this line
 
@@ -183,7 +182,7 @@
 // isNumberInRange(20, 50, 24);
 // isNumberInRange(20, 50, 76);
 
-// // ***** #22
+// // ***** 1-22
 // function checkIfCanAccessContent(subType) {
 
 //     const canAccessContent = (subType === "pro" || subType === "vip"); // Change this line
@@ -196,7 +195,7 @@
 // checkIfCanAccessContent("vip");
 // checkIfCanAccessContent("free");
 
-// // ***** #23
+// // ***** 1-23
 // function isNumberNotInRange(start, end, number) {
 //   const isInRange = number >= start && number <= end;
 //   const isNotInRange = !isInRange; // Change this line
@@ -209,7 +208,7 @@
 // isNumberNotInRange(20, 50, 24);
 // isNumberNotInRange(20, 50, 76);
 
-// // ***** #24
+// // ***** 1-24
 // function getDiscount(totalSpent) {
 //   const BASE_DISCOUNT = 0;
 //   const BRONZE_DISCOUNT = 0.02;
@@ -239,7 +238,7 @@
 // getDiscount(20000);
 // getDiscount(50000);
 
-// // ***** #25
+// // ***** 1-25
 // function checkStorage(available, ordered) {
 //   let message;
 //   // Change code below this line
@@ -257,7 +256,7 @@
 // checkStorage(200, 150);
 // checkStorage(150, 180);
 
-// // ***** #26
+// // ***** 1-26
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = "jqueryismyjam";
 //   let message;
@@ -272,7 +271,7 @@
 // checkPassword("angul4r1sl1f3");
 // checkPassword("r3actsux");
 
-// // ***** #27
+// // ***** 1-27
 // function getSubscriptionPrice(type) {
 //   let price;
 //   // Change code below this line
@@ -299,7 +298,7 @@
 // getSubscriptionPrice("organization");
 // getSubscriptionPrice("starter");
 
-// // ***** #28
+// // ***** 1-28
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = "jqueryismyjam";
 //   let message;
@@ -327,7 +326,7 @@
 // checkPassword("polyhax");
 // checkPassword("jqueryismyjam");
 
-// // ***** #29
+// // ***** 1-29
 // function getShippingCost(country) {
 //   let message;
 //   // Change code below this line
@@ -359,7 +358,7 @@
 // getShippingCost("Jamaica");
 // getShippingCost("Sweden");
 
-// // ***** #30
+// // ***** 1-30
 // function getNameLength(name) {
 //     const message = `Name ${name} is ${name.length} characters long`; // Change this line
 
@@ -371,7 +370,7 @@
 // getNameLength("Billy");
 // getNameLength("Joe");
 
-// // ***** #31
+// // ***** 1-31
 // const courseTopic = "JavaScript essentials";
 // // Change code below this line
 
@@ -385,7 +384,7 @@
 // console.log(firstElement);
 // console.log(lastElement);
 
-// // ***** #32
+// // ***** 1-32
 // function getSubstring(string, length) {
 //   const substring = string.slice(0,length); // Change this line
 
@@ -398,7 +397,7 @@
 // getSubstring("Hello world", 11);
 // getSubstring("Hello world", 0);
 
-// // ***** #33
+// // ***** 1-33
 // function formatMessage(message, maxLength) {
 //   let result;
 //   // Change code below this line
@@ -419,7 +418,7 @@
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 15);
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
 
-// // ***** #34
+// // ***** 1-34
 // function normalizeInput(input) {
 //   const normalizedInput = input.toLowerCase(); // Change this line
 
@@ -430,7 +429,7 @@
 // normalizeInput("This ISN'T SpaM");
 // normalizeInput("Big SALE");
 
-// // ***** #35
+// // ***** 1-35
 // function checkForName(fullName, name) {
 //   const result = fullName.includes(name); // Change this line
 //   console.log(result);
@@ -444,7 +443,7 @@
 // checkForName("Vadim Nekrasov", "vadim");
 // checkForName("Vadim Nekrasov", "Dima");
 
-// // ***** #36
+// // ***** 1-36
 // function checkForSpam(message) {
 //   let result;
 //   let normalizedMessage;
@@ -465,7 +464,7 @@
 // checkForSpam("[SPAM] How to earn fast money?");
 
 // **************************** Module 2 ***************************************
-// // ***** #2-1
+// // ***** 2-1
 // function checkAge(age) {
 //   if (age>=18) { // Change this line
 //     return "You are an adult";
@@ -629,7 +628,6 @@
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0);
 
 // // ***** 2-17
-
 // const start = 3;
 // const end = 7;
 
@@ -638,7 +636,6 @@
 // }
 
 // // ***** 2-18
-
 // function calculateTotal(number) {
 //  // Change code below this line
 //   let result = 0;
@@ -703,7 +700,6 @@
 // findLongestWord("May the force be with you");
 
 // // ***** 2-22
-
 // function createArrayOfNumbers(min, max) {
 //   const numbers = [];
 //   let count = 0;
@@ -748,7 +744,6 @@
 // filterArray([12, 24, 8, 41, 76], 20);
 
 // // ***** 2-24
-
 // function checkFruit(fruit) {
 //   const fruits = ["apple", "plum", "pear", "orange"];
 
@@ -763,7 +758,6 @@
 // checkFruit("apple");
 
 // // ***** 2-25
-
 // function getCommonElements(array1, array2) {
 //   // Change code below this line
 //   let result = [];
@@ -782,7 +776,7 @@
 // getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
 // getCommonElements([1, 2, 3], [10, 20, 30]);
 
-// // ***** 26-32
+// // ***** 2-26
 // function calculateTotalPrice(order) {
 //   let total = 0;
 //   let count = 0;
