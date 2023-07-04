@@ -52,6 +52,8 @@ https://www.youtube.com/watch?v=k3EpHrA4kBw
 # Модуль 3. Заняття 6. Об’єкти. Операції rest та spread
 
 https://www.youtube.com/watch?v=bb0cS8842lE
+// https://www.geeksforgeeks.org/lodash-_-clonedeep-method/
+// https://www.circle-lutsk.pp.ua/js_recursion.html
 
 ### 03/07/2023 FSON 88 нд 18:00-21:00 Мосальов
 
