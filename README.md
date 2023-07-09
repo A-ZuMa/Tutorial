@@ -1,3 +1,7 @@
+# Чек-лист по створенню ефективного профілю в LinkedIn
+
+https://drive.google.com/file/d/1v3v-X9JuCAdkhkjExKf05Yeke6SPQYD_/view
+
 # Java Script workclass
 
 # Шпаргалка по методам масивів:
@@ -41,7 +45,7 @@ https://www.youtube.com/watch?v=aRJnwHeUST4
 
 https://www.youtube.com/watch?v=0YVxhSugNjg
 
-### Додаткове заняття FSON 88 нд 18:00-21:00 Мосальов
+##### Додаткове заняття FSON 88 нд 18:00-21:00 Мосальов
 
 https://www.youtube.com/watch?v=LhorKvKtlao
 
@@ -55,6 +59,14 @@ https://www.youtube.com/watch?v=bb0cS8842lE
 // https://www.geeksforgeeks.org/lodash-_-clonedeep-method/
 // https://www.circle-lutsk.pp.ua/js_recursion.html
 
-### 03/07/2023 FSON 88 нд 18:00-21:00 Мосальов
+##### 03/07/2023 FSON 88 нд 18:00-21:00 Мосальов
 
 https://www.youtube.com/watch?v=Oy798_MUaVs
+
+# Модуль 4. Заняття 7. Перебираючі методи масиву (03/07/2023)
+
+https://www.youtube.com/watch?v=RnSaDPvdVAI
+
+# Модуль 4. Заняття 8. Перебираючі методи масиву (05/07/2023)
+
+https://www.youtube.com/watch?v=JQHRLvahHRY
