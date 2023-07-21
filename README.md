@@ -70,3 +70,23 @@ https://www.youtube.com/watch?v=RnSaDPvdVAI
 # Модуль 4. Заняття 8. Перебираючі методи масиву (05/07/2023)
 
 https://www.youtube.com/watch?v=JQHRLvahHRY
+
+# Модуль 5. Заняття 9. Ключове слово this. (10/07/2023)
+
+https://www.youtube.com/watch?v=bfVxFgFRKbw
+
+# Додаткові матеріали до модулю №5
+
+Ключове слово this - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+bind, call и apply на простому прикладі - https://habr.com/ru/post/199456/
+Класи в js, конструктори класів: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes https://ponyfoo.com/articles/es6-classes-in-depth
+Вступ в ООП: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+Прототипи: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+# Модуль 5. Заняття 10. Ключове слово this. Прототипи та класи. (12/07/2023)
+
+https://www.youtube.com/watch?v=OD3ska2ukRE
+
+# Питання-відповідь (20/07/2023)
+
+https://www.youtube.com/watch?v=RrZkNecOaP8
